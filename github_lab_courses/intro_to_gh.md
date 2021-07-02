@@ -315,3 +315,20 @@ This pull request is going to keep the changes you just made on your branch and 
 1. When you’ve selected your branch, enter a title for your pull request. For example `Add MrRamoun's file`
 1. The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
 1. Click `Create pull request`
+
+## What's Next
+
+We hope this course helped you feel more comfortable using GitHub. Remember: You’re always welcome to repeat course topics if you’d like additional practice. If you’re ready to build on your new skills, here are some ideas.
+
+### Contribute to a project
+
+To find projects to contribute to through trending topics and curated collections, check out [GitHub Explore](https://github.com/explore).
+
+### Keep learning
+
+Here are some suggestions for future courses you can take:
+
+- [GitHub Pages](https://lab.github.com/githubtraining/github-pages): Continue learning about GitHub Pages, which we touched on in this course.
+- [Communicating using Markdown](https://lab.github.com/githubtraining/communicating-using-markdown): We used a little Markdown in this course, but if you want to learn all about this sparkles syntax, take the course!
+
+[What will you learn next?](https://lab.github.com/courses)
