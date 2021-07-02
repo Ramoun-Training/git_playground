@@ -316,6 +316,18 @@ This pull request is going to keep the changes you just made on your branch and 
 1. The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
 1. Click `Create pull request`
 
+## Merge
+
+Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another. This often happens as a "pull request" (which can be thought of as a **request to merge**), or via the command line. A merge can be done through a pull request via the `GitHub.com` web interface if there are no conflicting changes, or can always be done via the command line (using the `git merge <branch-name>` command).
+
+### merge conflict
+
+A difference that occurs between merged branches. Merge conflicts happen **when people make different changes to the same line of the same file**, or when one person edits a file and another person deletes the same file. The merge conflict must be resolved before you can merge the branches.
+
+### milestone
+
+A way to track the progress on groups of issues or pull requests in a repository.
+
 ## What's Next
 
 We hope this course helped you feel more comfortable using GitHub. Remember: You’re always welcome to repeat course topics if you’d like additional practice. If you’re ready to build on your new skills, here are some ideas.
