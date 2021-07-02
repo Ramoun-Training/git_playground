@@ -113,14 +113,6 @@ Now that you’ve completed the tasks in this issue, it's time to close it! Clos
 
 > **Note**: Issues can be reopened after closing.
 
-## Github Pull Requests
-
-Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators. Like issues, pull requests each have their own discussion forum.
-
-- show others changes you are proposing (in form of a chain of commits) so they can review and test them.
-- other teamates can make imporvements (by adding their code the branch).
-- once the team has signed off on the changes, you can incorprate new code into the project (using Merge).
-
 ## Managing Notifications
 
 ### Watching/Not Watching Projects
@@ -278,3 +270,46 @@ The following steps will guide you through the process of committing a change on
 
    1. After adding the text, you can commit the change by entering a commit message in the text-entry field below the file edit view. For guidelines on commit messages, check out the Commits 101 drop-down, just above these instructions.
    1. When you’ve entered a commit message, click Commit new file.
+
+## Github Pull Requests
+
+Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators. Like issues, pull requests each have their own discussion forum.
+
+- show others changes you are proposing (in form of a chain of commits) so they can review and test them.
+- other teamates can make imporvements (by adding their code the branch).
+- once the team has signed off on the changes, you can incorprate new code into the project (using Merge).
+
+Now that you’ve created a commit, it’s time to share your proposed change through a pull request! Where issues encourage discussion with other contributors and collaborators on a project, pull requests help you share your changes, receive feedback on them, and iterate on them until they’re perfect!
+
+Let’s think back to the GitHub flow again. You have **created a branch**, **added a file**, and **committed the file to your branch**. Now it’s time to collaborate on your file with other students taking this class. This collaboration happens in a pull request. Check out this [video](https://youtu.be/kJr-PIfLDl4) to learn more.
+
+PRs are used to propose changes to files.
+
+a Pull Requset introduces an action that addresses an issue:
+
+![pr](/images/pr.png)
+
+it is considered a "work in porgress" until it is merged into the project.
+
+> **Note**: as a best practice, you should refrence the original issue(s) using the `#`-notation.
+
+similar to the discussion thread on an issue, a PR creates a discussion about the changes being made to the repo:
+
+- this discussion is found in the `conversation` tab.
+- the `commits` view contains info about changes to the files and who made them.
+- the `files changed` view allows us to see the chage that is being proposed (often called the `diff`) (this where we add line comments).
+
+Most project teams require someone to sign off on the change before it is merged (with an emoji :+1:)
+
+### Create a PR
+
+This pull request is going to keep the changes you just made on your branch and propose applying them to the `main` branch.
+
+1. Open a pull request using this [shortcut](https://github.com/MrRamoun/github-slideshow/compare/refs/heads/my-slide?expand=1) or manually as follows:
+   - From the "Pull requests" tab, click `New pull request`
+   - In the "base:" drop-down menu, make sure the "main" branch is selected
+   - In the "compare:" drop-down menu, select "my-slide"
+
+1. When you’ve selected your branch, enter a title for your pull request. For example `Add MrRamoun's file`
+1. The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
+1. Click `Create pull request`
