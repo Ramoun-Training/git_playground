@@ -17,16 +17,16 @@
 - [x] How does one use GitHub?
 - [x] What are issues and pull requests?
 - [x] How do you create a branch and a commit?
-- [ ] How do you use GitHub Pages?
+- [x] How do you use GitHub Pages?
 
 ### And when you're done you'll be able to
 
 - [x] Communicate in issues
 - [x] Manage notifications
 - [x] Create branches
-- [ ] Make commits
-- [ ] Introduce changes with pull requests
-- [ ] Deploy a web page to GitHub pages
+- [x] Make commits
+- [x] Introduce changes with pull requests
+- [x] Deploy a web page to GitHub pages
 
 ## Projects used
 
@@ -186,8 +186,6 @@ GitHub Pages allow you to serve a static site from a repository
 1. From the "Source" drop down, select main branch
 
 > **Note**: Even though you'll see an option to choose a theme, do not apply a theme at this point. We've protected the code so you can't make unintended changes. You'll have the opportunity to apply a theme when the course is completed.
-<<<<<<< HEAD
-=======
 
 ## Introduction to GitHub flow
 
@@ -213,7 +211,7 @@ The best way to keep branches organized with a team is to keep them **concise** 
 
 when you are ready to add a new feature or fix an issue, you create a new branch on the project.
 
-![branc1](/images/branch1.png)
+![branch1](/images/branch1.png)
 
 The branch will look exactly like master at first but any changes you make will only be reflected in your branch.
 
