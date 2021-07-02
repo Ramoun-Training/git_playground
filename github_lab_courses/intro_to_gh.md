@@ -221,7 +221,7 @@ when you are ready to add a new feature or fix an issue, you create a new branch
 
 ![branc1](/images/branch1.png)
 
-The branch will look exactly like master at first but any changes you make will only be reflected in your branch. 
+The branch will look exactly like master at first but any changes you make will only be reflected in your branch.
 
 Such a new branch is often called a `feature` branch and you should give yours a descriptive name.
 
@@ -240,3 +240,41 @@ when the changes in the PR are approved, the `feature` branch is merged on to th
    2. Click `​Branch`: `master​` in the drop-down.
    3. In the field, enter a name for your branch.
    4. Click `​Create branch`: `<name>`​ or press the “Enter” key to create your branch.
+
+## Commits 101
+
+Creating a branch allows you to make modifications to your project without changing the deployed `main` branch. Now that you have a branch, it’s time to create a file and make your first commit!
+
+When you’re finished creating or making changes to a file on GitHub, scroll to the bottom of the page. Then find the "Commit new file" section.
+
+In the first field, type a commit message. The commit message should briefly tell contributors about the changes you are introducing to the file.
+
+### Rules to live by for commit messages
+
+- Don’t end your commit message with a period.
+- Keep your commit messages to 50 characters or less. Add extra detail in the extended description window if necessary. This is located just below the subject line.
+- Use active voice. For example, "add" instead of "added" and "merge" instead of "merged".
+- Think of your commit as **expressing intent to introduce a change**.
+
+### Your first commit
+
+The following steps will guide you through the process of committing a change on GitHub.
+
+1. Create a new file on this branch, in a `_posts` folder called `0000-01-02-MrRamoun.md`. You can do so using this [shortcut](https://github.com/MrRamoun/github-slideshow/new/my-slide?filename=_posts/0000-01-02-MrRamoun.md) or manually as follows:
+   1. Return to the "Code" tab.
+   1. In the branch drop-down, select "my-slide".
+   1. Click Create new file.
+   1. In the "file name" field, type `_posts/0000-01-02-MrRamoun.md`. Entering the `/` in the filename will automatically place your file in the `_posts` directory.
+   1. When you’re done naming the file, add the following content to your file:
+
+        ```markdown
+        ---
+        layout: slide
+        title: "Welcome to our second slide!"
+        ---
+        Your text
+        Use the left arrow to go back!
+        ```
+
+   1. After adding the text, you can commit the change by entering a commit message in the text-entry field below the file edit view. For guidelines on commit messages, check out the Commits 101 drop-down, just above these instructions.
+   1. When you’ve entered a commit message, click Commit new file.
