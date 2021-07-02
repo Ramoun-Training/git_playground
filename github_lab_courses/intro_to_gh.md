@@ -13,17 +13,17 @@
 
 ### We'll answer common questions like
 
-- [ ] What is GitHub?
-- [ ] How does one use GitHub?
-- [ ] What are issues and pull requests?
-- [ ] How do you create a branch and a commit?
+- [x] What is GitHub?
+- [x] How does one use GitHub?
+- [x] What are issues and pull requests?
+- [x] How do you create a branch and a commit?
 - [ ] How do you use GitHub Pages?
 
 ### And when you're done you'll be able to
 
-- [ ] Communicate in issues
-- [ ] Manage notifications
-- [ ] Create branches
+- [x] Communicate in issues
+- [x] Manage notifications
+- [x] Create branches
 - [ ] Make commits
 - [ ] Introduce changes with pull requests
 - [ ] Deploy a web page to GitHub pages
@@ -194,3 +194,51 @@ GitHub Pages allow you to serve a static site from a repository
 1. From the "Source" drop down, select main branch
 
 > **Note**: Even though you'll see an option to choose a theme, do not apply a theme at this point. We've protected the code so you can't make unintended changes. You'll have the opportunity to apply a theme when the course is completed.
+<<<<<<< HEAD
+=======
+
+## Introduction to GitHub flow
+
+People use different workflows to contribute to software projects, but the simplest and most effective way to contribute on GitHub is the GitHub flow.
+
+### What is GitHub Flow
+
+is a light weigh workflow that allows you to experiment with ideas safely without fear of comprmoising a project.
+
+### Key Concepts of GH Flow
+
+#### Branching
+
+everything on github lives on a branch.
+
+Branches are an important part of the GitHub flow because they allow us to separate our work from the main branch. In other words, everyone's work is safe while you contribute.
+
+##### Tips for using branches
+
+A single project can have hundreds of branches, each suggesting a new change to the `main` branch.
+
+The best way to keep branches organized with a team is to keep them **concise** and **short-lived**. In other words, _**a single branch should represent a single new feature or bug fix**_. This reduces confusion among contributors when branches are only active for a few days before they’re merged into the `main` branch.
+
+when you are ready to add a new feature or fix an issue, you create a new branch on the project.
+
+![branc1](/images/branch1.png)
+
+The branch will look exactly like master at first but any changes you make will only be reflected in your branch.
+
+Such a new branch is often called a `feature` branch and you should give yours a descriptive name.
+
+when you make changes to files in your project, you'll commit those changes to the `feature` branch.
+
+when you are ready to start a discussion about your changes, you open a PR (a PR doesn't need to be a perfect work of art, it is meant to be a starting point that will be further refined and polished through the efforts of the project team).
+
+when the changes in the PR are approved, the `feature` branch is merged on to the master branch and the issue is closed.
+
+![branch2](/images/branch2.png)
+
+### Summary of Github Flow
+
+1. Create a Branch
+   1. Navigate to the `​Code​` tab.
+   2. Click `​Branch`: `master​` in the drop-down.
+   3. In the field, enter a name for your branch.
+   4. Click `​Create branch`: `<name>`​ or press the “Enter” key to create your branch.
