@@ -24,6 +24,7 @@
 
     ```bash
     CSS for About page
+
     - Implement all styling for the About page called for in the design document. [link]
     - Add reusable class "contact" that can be used on any <fieldset> element to implement our custom design for email forms on any page.
     - Alter the global rules for link styling to account for changes in the design document.
